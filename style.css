@@ -93,6 +93,40 @@ li {
 .main-content {
     border: 1px solid green;
     background-color: coral;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cards {
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cards > p {
+    grid-column: span 2;
+    margin-left: 35px;
+}
+
+.card {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    justify-self: center;
+    align-self: center;
+}
+
+.annoucements {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+}
+
+.trending {
+    display: grid;
+    justify-content: start;
 }
 
 
