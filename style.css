@@ -1,3 +1,31 @@
-h1 {
-    color: fuchsia;
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 18vh 82vh;
+}
+
+.sidebar {
+    border: 1px solid red;
+    grid-row: span 2;
+    background-color: cornflowerblue;
+}
+
+.header {
+    border: 1px solid blue;
+    background-color: chartreuse;
+}
+
+.main-content {
+    border: 1px solid green;
+    background-color: coral;
+}
+
+
