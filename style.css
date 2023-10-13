@@ -189,3 +189,39 @@ svg {
     font-size: 14px;
 }
 
+.content-side {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 260px 260px;
+    gap: 30px;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.annoucements,
+.trending {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+}
+
+.annoucements {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.annoucements p:nth-child(2) {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.annoucements p {
+    font-size: 12px;
+}
+
+
+
