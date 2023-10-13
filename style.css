@@ -147,6 +147,19 @@ svg {
     grid-template-columns: 3fr 1fr;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13px 100%;
+}
+
+.wrapper h4 {
+    justify-self: start;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-left: 98px;
+}
+
 .projects {
     display: grid;
     grid-template-columns: 300px 300px;
@@ -192,8 +205,8 @@ svg {
 .content-side {
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 260px 260px;
-    gap: 30px;
+    grid-template-rows: 280px 280px;
+    gap: 40px;
     align-self: center;
     padding-right: 30px;
 }
@@ -213,6 +226,11 @@ svg {
     grid-template-rows: repeat(3, 1fr);
 }
 
+
+.wrapper2 h4 {
+    margin: 0;
+}
+
 .annoucements p:nth-child(2) {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -229,6 +247,9 @@ svg {
     grid-template-rows: repeat(4, 1fr);
 }
 
+.wrapper3 h4 {
+    margin: 0;
+}
 .user {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
