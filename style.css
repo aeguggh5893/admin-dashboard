@@ -143,4 +143,49 @@ svg {
 .main-content {
     background: rgb(159, 236, 43);
     grid-area: 2 / 2 / 6 / 6;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: repeat(3, 200px);
+    align-items: center;
+    justify-content: center;
+    gap: 10px 20px;
+    padding-top: 10px;
+}
+
+.card {
+    background: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border-left: 10px solid yellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.icons svg {
+    height: 30px;
+    width: 30px;
+    fill: black;
+}
+
+.card p {
+    margin: 0;
+    align-self: center;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
