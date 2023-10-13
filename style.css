@@ -81,7 +81,10 @@ svg {
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-self: center;
+    gap: 10px;
 }
+
+
 
 .header-top1 svg {
     justify-self: end;
@@ -95,8 +98,7 @@ svg {
     border-radius: 10px;
 }
 
-.header-top2,
-.header-bot2 {
+.header-top2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-self: center;
@@ -110,6 +112,10 @@ svg {
     align-self: center;
 }
 
+.header-bot1 div {
+    padding-left: 10px;
+}
+
 .header-bot1 svg{
     grid-row: 1 / span 2;
     justify-self: end;
@@ -117,9 +123,20 @@ svg {
 
 .header-bot2 div {
     height: 40px;
-    width: 50px;
-    border: 1px solid black;
+    width: 80px;
+    border: 1px solid rgb(19, 41, 185);
+    background: rgb(19, 41, 185);
+    padding-top: 10px;
     border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.header-bot2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
 }
 
 
