@@ -223,5 +223,29 @@ svg {
     font-size: 12px;
 }
 
+.trending {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
 
+.user {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    justify-self: start;
+}
+
+.user div {
+    padding-left: 10px;
+}
+
+.user svg {
+    fill: black;
+    height: 30px;
+    width: 30px;
+    justify-self: end;
+    border: 1px solid black;
+    border-radius: 50%;
+}
 
